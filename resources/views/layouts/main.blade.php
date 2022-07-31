@@ -24,5 +24,8 @@
 </head>
 <body>
   @yield('content')
+  
+  @include('components.content-area')
+  @include('components.food-preview')
 </body>
 </html>
