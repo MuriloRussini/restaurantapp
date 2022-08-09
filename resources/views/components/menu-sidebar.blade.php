@@ -8,16 +8,19 @@
     </div>
     <ul class="links">
       <li>
-        <a href="#">Menu</a>
+        <a href="{{ route('menu-index') }}">Menu</a>
       </li>
       <li>
         <a href="#">Waitlist</a>
       </li>
       <li>
-        <a href="#">Offers</a>
+        <a href="{{ route('offers') }}">Offers</a>
       </li>
       <li>
-        <a href="#">Giftcards</a>
+        <a href="{{ route('giftcards') }}">Giftcards</a>
+      </li>
+      <li>
+        <a href="{{ route('about') }}">About Us</a>
       </li>
     </ul>
   </div>
