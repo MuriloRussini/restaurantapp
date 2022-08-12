@@ -5,7 +5,7 @@
 @section('content')
 <body class="antialiased">
         
-  <section id="welcome">
+  <section id="app-layout">
     @include('components.menu-sidebar')
     <div class="welcome-jumbo">
       <div class="status">NEW</div>

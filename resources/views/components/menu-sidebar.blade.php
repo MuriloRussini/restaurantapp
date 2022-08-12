@@ -1,4 +1,4 @@
-<div class="welcome-menu">
+<div class="side-menu">
   <a href="/" class="logo">
     <img src="https://webstockreview.net/images/clipart-restaurant-restaurant-logo-5.png">
   </a>
@@ -8,7 +8,7 @@
     </div>
     <ul class="links">
       <li>
-        <a href="{{ route('menu-index') }}">Menu</a>
+        <a href="{{ route('menu-index') }}">Food</a>
       </li>
       <li>
         <a href="#">Waitlist</a>

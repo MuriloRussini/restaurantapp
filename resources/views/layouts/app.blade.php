@@ -23,6 +23,15 @@
   </style>
 </head>
 <body>
-  @yield('content')
+  <section id="app-layout">
+    @include('components.menu-sidebar')
+    <section id="content-section">
+      @yield('content')
+    </section>
+  </section>
+
+  <!-- <script src="/js/dist/vendors~FirstComp.js"></script>
+  <script src="/js/dist/FirstComp.js"></script>
+  <script src="/js/dist/main.js"></script> -->
 </body>
 </html>
