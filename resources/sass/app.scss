@@ -27,6 +27,10 @@ q:before {
   content: none;
 }
 
+p{
+  font-family: "Montserrat", sans-serif;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -128,7 +132,6 @@ body {
     background: -webkit-radial-gradient(center, ellipse cover, #ed4852 0%,#9c1b24 100%); /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(ellipse at center, #ed4852 0%,#9c1b24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     overflow: hidden;
-    padding: 100px;
   }
 }
 

@@ -91,6 +91,26 @@ table {
   position: relative;
 }
 
+#about-page {
+  padding: 100px;
+}
+#about-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 2rem;
+}
+#about-page p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+#about-page .content-box {
+  background-color: white;
+  padding: 20px;
+}
+
 body {
   line-height: 1;
   background: white;
@@ -112,6 +132,10 @@ q:after,
 q:before {
   content: "";
   content: none;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 table {
@@ -203,7 +227,6 @@ body {
   background: #ed4852; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   overflow: hidden;
-  padding: 100px;
 }
 
 #information {
